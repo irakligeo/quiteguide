@@ -22,9 +22,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
         android:layout_marginBottom="@dimen/spacing_small"
         android:layout_marginTop="@dimen/spacing_large"
-        style="@style/ButtonWithBgWhiteText"
+        android:textColor="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="50dp"
         android:background="@drawable/select_quit_date"
         android:contentDescription="@string/access_select_quitdate"
         android:text="@string/btn_lbl_select_quitdate" />

@@ -92,69 +92,70 @@
                 android:layout_marginStart="@dimen/spacing_small"
                 android:layout_marginEnd="@dimen/spacing_small"
                 android:layout_marginTop="@dimen/spacing_normal"
+                android:layout_marginBottom="14dp"
                 android:text="@string/p3_about_privacy"
                 style="@style/ContentTextWhite"
                 />
 
             <!-- section 3 -->
 
-            <TextView
-                style="@style/ContentHeaderWhiteLarge"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_xlarge"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/header_about_terms"
-                android:textAllCaps="true"/>
+            <!--<TextView-->
+                <!--style="@style/ContentHeaderWhiteLarge"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="@dimen/spacing_xlarge"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:text="@string/header_about_terms"-->
+                <!--android:textAllCaps="true"/>-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_small"
-                android:layout_marginEnd="@dimen/spacing_small"
-                android:layout_marginTop="@dimen/spacing_large"
-                android:text="@string/p1_about_terms"
-                style="@style/ContentTextWhite"
-                />
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="@dimen/spacing_small"-->
+                <!--android:layout_marginEnd="@dimen/spacing_small"-->
+                <!--android:layout_marginTop="@dimen/spacing_large"-->
+                <!--android:text="@string/p1_about_terms"-->
+                <!--style="@style/ContentTextWhite"-->
+                <!--/>-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_small"
-                android:layout_marginEnd="@dimen/spacing_small"
-                android:layout_marginTop="@dimen/spacing_normal"
-                android:text="@string/p2_about_terms"
-                style="@style/ContentTextWhite"
-                />
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="@dimen/spacing_small"-->
+                <!--android:layout_marginEnd="@dimen/spacing_small"-->
+                <!--android:layout_marginTop="@dimen/spacing_normal"-->
+                <!--android:text="@string/p2_about_terms"-->
+                <!--style="@style/ContentTextWhite"-->
+                <!--/>-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_small"
-                android:layout_marginEnd="@dimen/spacing_small"
-                android:layout_marginTop="@dimen/spacing_normal"
-                android:text="@string/p3_about_terms"
-                style="@style/ContentTextWhite"
-                />
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="@dimen/spacing_small"-->
+                <!--android:layout_marginEnd="@dimen/spacing_small"-->
+                <!--android:layout_marginTop="@dimen/spacing_normal"-->
+                <!--android:text="@string/p3_about_terms"-->
+                <!--style="@style/ContentTextWhite"-->
+                <!--/>-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_small"
-                android:layout_marginEnd="@dimen/spacing_small"
-                android:layout_marginTop="@dimen/spacing_normal"
-                android:text="@string/p4_about_terms"
-                style="@style/ContentTextWhite"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_small"
-                android:layout_marginEnd="@dimen/spacing_small"
-                android:layout_marginTop="@dimen/spacing_normal"
-                android:text="@string/p5_about_terms"
-                style="@style/ContentTextWhite"
-                />
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="@dimen/spacing_small"-->
+                <!--android:layout_marginEnd="@dimen/spacing_small"-->
+                <!--android:layout_marginTop="@dimen/spacing_normal"-->
+                <!--android:text="@string/p4_about_terms"-->
+                <!--style="@style/ContentTextWhite"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="@dimen/spacing_small"-->
+                <!--android:layout_marginEnd="@dimen/spacing_small"-->
+                <!--android:layout_marginTop="@dimen/spacing_normal"-->
+                <!--android:text="@string/p5_about_terms"-->
+                <!--style="@style/ContentTextWhite"-->
+                <!--/>-->
 
 
         </LinearLayout>

@@ -54,7 +54,7 @@
             android:text="@string/btn_text_send_custom_tip"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18sp"
+            android:textSize="14sp"
             android:fontFamily="sans-serif"
             android:textAllCaps="false" />
 
@@ -68,7 +68,7 @@
             android:text="@string/btn_txt_send_random_tip"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18sp"
+            android:textSize="14sp"
             android:fontFamily="sans-serif"
             android:textAllCaps="false" />
 

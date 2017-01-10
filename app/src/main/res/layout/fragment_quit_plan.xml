@@ -6,6 +6,7 @@
     android:background="@drawable/bg_img">
 
     <TextView
+        android:gravity="center"
         android:id="@+id/quitplan_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -283,11 +283,12 @@ public class HomeFragment extends BaseFragment {
                 mReasonForQuittingText.setText(getString(R.string.txt_long_press_to_edit));
                 mReasonForQuittingImage.setImageResource(android.R.color.transparent);
             }
-                // Set long click listener to Reason for Quitting
+
+                // Set  click listener to Reason for Quitting
                 if (mReasonForQuittingContainer != null) {
-                    mReasonForQuittingContainer.setOnLongClickListener(new View.OnLongClickListener() {
+                    mReasonForQuittingContainer.setOnClickListener(new View.OnClickListener() {
                         @Override
-                        public boolean onLongClick(View v) {
+                        public void onClick(View v) {
                             // GA
                             mTrackerHost.send(getString(R.string.category_main), getString(R.string.action_edit_reason_to_quit));
                             mTrackerHost.send(getString(R.string.category_main)+"|"+getString(R.string.action_edit_reason_to_quit));
@@ -308,7 +309,6 @@ public class HomeFragment extends BaseFragment {
                                     .addToBackStack(null)
                                     .commit();
                             ((MainActivity)getActivity()).hideHeader();
-                            return true;
                         }
                     });
                 }

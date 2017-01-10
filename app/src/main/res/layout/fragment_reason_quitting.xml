@@ -6,8 +6,12 @@
     android:clickable="true">
     <TextView android:id="@+id/header_reason_quitting"
         style="@style/ContentHeaderWhiteLarge"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="@dimen/spacing_large"
         android:layout_marginTop="@dimen/spacing_large"
@@ -59,7 +63,7 @@
 
             <ImageButton
                 android:id="@+id/btn_upload_photo"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/transparent"
