@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/charcoal"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/ContentTextWhite"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing_xlarge"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_my_quit_date"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/drawer_quit_date"
+        style="@style/ContentTextWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="11/03/2015"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/drawer_days_smoke_free"
+        style="@style/ContentTextWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing_xlarge"
+        android:text="0 Days smokefree"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/drawer_cigarettes_avoided"
+        style="@style/ContentTextWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing_xlarge"
+        android:text="0 cigarettes not smoked"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/drawer_money_saved"
+        style="@style/ContentTextWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_xlarge"
+        android:background="@drawable/bg_oval_grease"
+        android:gravity="center"
+        android:paddingBottom="@dimen/spacing_normal_pp"
+        android:paddingTop="@dimen/spacing_normal_pp"
+        android:text="You saved $0.00!"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:background="@drawable/bg_oval_grease"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/spacing_small"
+        android:paddingTop="@dimen/spacing_small">
+
+        <TextView
+            style="@style/ContentTextWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/lbl_saved_time"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/drawer_minutes_saved"
+            style="@style/ContentTextWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0 Minutes!"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/drawer_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        android:contentDescription="@string/access_share"
+        android:src="@drawable/bg_share_btn"
+        android:background="@color/transparent"/>
+
+    <GridView
+        android:id="@+id/right_drawer_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height_massive"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        android:listSelector="@color/transparent"
+        android:minHeight="@dimen/view_height_massive"
+        android:numColumns="3" />
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+
+    <!-- this header will only be visible when accessing journal page from a HomeFragment
+         button. This needs to be added to have proper transition animations.         -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header"
+        android:visibility="gone">
+
+
+        <!-- header style for journal page -->
+
+        <LinearLayout
+            android:id="@+id/header_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/spacing_small">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:layout_gravity="center_vertical"
+                android:text="@string/btn_save"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/header_black_back_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/spacing_small">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/access_back_arrow"
+                android:src="@drawable/back_arrow_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:layout_gravity="center_vertical"
+                android:text="@string/header_lbl_back"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/header_edit_journal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/header"
+        android:background="@color/light_gray3">
+
+        <TextView
+            android:id="@+id/txt_edit_journal_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/edt_edit_journal_title"
+            android:layout_marginBottom="@dimen/spacing_tiny"
+            android:layout_marginEnd="@dimen/spacing_tiny"
+            style="@style/ContentTextBlack"
+            android:text="STUB"/>
+
+        <EditText
+            android:id="@+id/edt_edit_journal_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/title_under_bar"
+            android:paddingStart="@dimen/spacing_tiny"
+            android:paddingEnd="@dimen/spacing_tiny"
+            android:gravity="center"
+            android:hint="@string/hint_title"
+            android:singleLine="true"
+            android:background="@color/white"
+            android:inputType="textCapSentences"/>
+
+        <!-- little hack here -->
+        <View
+            android:id="@+id/title_under_bar"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/spacing_tiny"
+            />
+
+    </RelativeLayout>
+
+    <com.mmgct.quitguide2.views.widgets.LinedEditText
+        android:id="@+id/edt_edit_journal_entry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_edit_journal"
+        android:layout_marginBottom="-10dp"
+        android:padding="@dimen/spacing_tiny"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:clickable="true"/>
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

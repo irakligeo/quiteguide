@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img"
+    android:clickable="true">
+
+    <!-- this header will only be visible when accessing journal page from a HomeFragment
+         button. This needs to be added to have proper transition animations.         -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header"
+        android:visibility="gone">
+
+
+        <!-- title -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/ContentHeader"
+            android:text="@string/title_journal"/>
+
+        <!-- header style for journal page -->
+
+        <LinearLayout
+            android:id="@+id/header_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            android:layout_marginEnd="@dimen/spacing_small">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:layout_gravity="center_vertical"
+                android:text="@string/btn_save"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/header_black_back_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/spacing_small">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/access_back_arrow"
+                android:src="@drawable/back_arrow_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:layout_gravity="center_vertical"
+                android:text="@string/header_lbl_back"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/merge_btn_close" />
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

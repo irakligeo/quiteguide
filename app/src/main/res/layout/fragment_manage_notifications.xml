@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray4">
+
+    <View android:id="@+id/v_top_border"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:background="@color/black" />
+
+    <FrameLayout android:id="@+id/frag_container_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/v_top_border"/>
+
+    <LinearLayout android:id="@+id/lyt_toggle_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:background="@drawable/shape_round_rect_black_black_border"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_map_view"
+            android:layout_width="@dimen/view_width_small"
+            android:layout_height="@dimen/view_height_tiny"
+            android:background="@drawable/shape_left_round_rect_black"
+            android:textColor="@color/white"
+            android:text="@string/btn_map_view"
+            android:textStyle="normal"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_list_view"
+            android:layout_width="@dimen/view_width_small"
+            android:layout_height="@dimen/view_height_tiny"
+            android:background="@drawable/shape_right_round_rect_white"
+            android:text="@string/btn_list_view"
+            android:textStyle="normal"
+            android:textAllCaps="false"/>
+
+
+
+    </LinearLayout>
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

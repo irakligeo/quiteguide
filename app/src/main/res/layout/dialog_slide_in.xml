@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height_xxsmall"
+        android:background="@color/light_gray">
+
+        <TextView
+            android:id="@+id/btn_back_slide_in"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/spacing_small"
+            android:paddingEnd="@dimen/spacing_small"
+            android:textStyle="bold"
+            style="@style/ContentTextBlue"
+            android:text="@string/lbl_done"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+        <!--<DatePicker
+            android:id="@+id/diag_date_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            android:calendarViewShown="false"/>
+-->
+
+        <!--android:datePickerMode="spinner"-->
+        <!-- style="@style/Theme.Translucent.Pickers"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"-->
+    </RelativeLayout>
+
+</LinearLayout>

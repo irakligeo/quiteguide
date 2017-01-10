@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:clickable="true">
+
+
+    <ImageView
+        android:id="@+id/random_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_huge"
+        android:layout_marginBottom="@dimen/spacing_xhuge"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/random_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        style="@style/ContentHeaderWhiteLarge"/>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

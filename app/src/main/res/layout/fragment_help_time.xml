@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue2"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/spacing_normal_pp"
+        android:layout_marginEnd="@dimen/spacing_normal_pp"
+        android:layout_centerVertical="true">
+
+    <TextView android:id="@+id/header_help_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ContentHeaderWhiteLarge"
+        android:gravity="center"
+        android:text="@string/header_help_time"/>
+
+        <TimePicker android:id="@+id/time_picker_help_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_marginTop="@dimen/spacing_normal_pp" />
+
+        <Button
+            android:id="@+id/btn_select_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_normal_pp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/black_button_background"
+            android:text="@string/btn_txt_select_time"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

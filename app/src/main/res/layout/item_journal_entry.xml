@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_tiny"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_delete_journal_entry"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@color/delete_red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/ContentTextThinWhite"
+            android:text="@string/btn_delete"
+            />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/surface_view_journal_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/transparent">
+
+        <TextView
+            android:id="@+id/header_journal_entry"
+            style="@style/ContentHeaderWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_normal"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/timestamp_journal_entry"
+            style="@style/ContentTextWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_normal"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:background="@color/white" />
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

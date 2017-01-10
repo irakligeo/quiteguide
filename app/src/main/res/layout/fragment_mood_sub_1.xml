@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeaderWhiteLarge"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/header_remember_this_moment"
+            android:textAllCaps="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="@dimen/spacing_xxhuge">
+
+            <ImageButton
+                android:id="@+id/btn_mood1_take_photo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_take_photo_for_later"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_take_photo" />
+
+            <ImageButton
+                android:id="@+id/btn_mood1_write_note"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_small_write_yourself_note"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_write_yourself_note" />
+
+            <ImageButton
+                android:id="@+id/btn_mood1_journal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_small_journal"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_journal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout ="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

@@ -1,0 +1,321 @@
+{
+
+  "Content": [
+    {
+      "contentDescription": "ბედნიერი",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "მოწყენილი",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "უაზრობა",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "კარგი",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "გაბრაზებული",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "გაღიზიანებული",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "დასვენებული",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "დაძაბული",
+      "contentType": "განწყობა"
+    },
+    {
+      "contentDescription": "სკოლა",
+      "contentType": "სად"
+    },
+    {
+      "contentDescription": "მაღაზიათა ცენტრი",
+      "contentType": "სად"
+    },
+    {
+      "contentDescription": "სამსახური",
+      "contentType": "სად"
+    },
+    {
+      "contentDescription": "სახლი",
+      "contentType": "სად"
+    },
+    {
+      "contentDescription": "მეგობრის სახლი",
+      "contentType": "სად"
+    },
+    {
+      "contentDescription": "სკვერი",
+      "contentType": "სად"
+    },
+    {
+      "contentDescription": "მანქანა",
+      "contentType": "სად"
+    },
+    {
+      "contentDescription": "მე",
+      "contentType": "ვინ"
+    },
+    {
+      "contentDescription": "მეგობრები",
+      "contentType": "ვინ"
+    },
+    {
+      "contentDescription": "ოჯახის წევრი",
+      "contentType": "ვინ"
+    },
+    {
+      "contentDescription": "თანამშრომლები",
+      "contentType": "ვინ"
+    },
+    {
+      "contentDescription": "უცნობები",
+      "contentType": "ვინ"
+    },
+    {
+      "contentDescription": "გაღიზიანებული",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "მოწყენილი",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ტელეფონზე ლაპარაკი",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ალკოჰოლის მიღება",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ტელევიზორის ყურება",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ავტომანქანის მართვა",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ჭამის დამთავრება",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "კარტით თამაში",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "შესვენება",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "სხვა მწეველებთან ერთად ყოფნა",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ყავის სმა",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "სხვა მწეველის ყურება",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ჩხუბის შემდეგ დამშვიდება",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "თავის მარტოდ გრძნობა",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "მუსიკის მოსმენა",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ეს ადგილმდებარეობა",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "დღის ეს მონაკვეთი",
+      "contentType": "რა"
+    },
+    {
+      "contentDescription": "ოღონდაც შემეძლოს...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "ხალხი არის...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "ვიცი შემიძლია...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "ვერ ვხვდები...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "მასევდიანებს... ",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "იმედი მაქვს...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "ჩემთვის მნიშვნელობა აქვს...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "თავს კარგად ვგრძნობ მაშინ, როდესაც...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "ზოგჯერ ვფიქრობ...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "მსურს, რომ...",
+      "contentType": "მინიშნებები"
+    },
+    {
+      "contentDescription": "დღეს...",
+      "contentType": "მინიშნებები"
+    }
+  ],
+  "version_no": 5,
+  "Award": [
+    {
+      "awardID": 1,
+      "awardDescription": "მოწევის შეწყვეტის თარიღი შერჩეულია!",
+      "reqDescription": "გთხოვთ, დააყენეთ თქვენი პროფილი",
+      "awardName": "SetQDate",
+      "imgName": "set_quit_date.png",
+      "disabledImgName": "set_quit_date2.png",
+      "awarded": false,
+      "reqNumber": 0
+    },
+    {
+      "awardID": 2,
+      "awardDescription": "24 საათი თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით ერთი დღე თამბაქოსგან თავისუფალი",
+      "awardName": "1Day",
+      "imgName": "24hrs.png",
+      "disabledImgName": "24hrs2.png",
+      "awarded": false,
+      "reqNumber": 1
+    },
+    {
+      "awardID": 3,
+      "awardDescription": "3 დღე თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით 3 დღე თამბაქოსგან თავისუფალი",
+      "awardName": "3Days",
+      "imgName": "3days.png",
+      "disabledImgName": "3days2.png",
+      "awarded": false,
+      "reqNumber": 3
+    },
+    {
+      "awardID": 4,
+      "awardDescription": "5 დღე თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით 5 დღე თამბაქოსგან თავისუფალი",
+      "awardName": "5Days",
+      "imgName": "5days.png",
+      "disabledImgName": "5days2.png",
+      "awarded": false,
+      "reqNumber": 5
+    },
+    {
+      "awardID": 5,
+      "awardDescription": "1 კვირა თამბაქოს გარეშე",
+      "reqDescription": "თუ შეიძლება გაძელით ერთი კვირა თამბაქოსგან თავისუფალი",
+      "awardName": "1Week",
+      "imgName": "1week.png",
+      "disabledImgName": "1week2.png",
+      "awarded": false,
+      "reqNumber": 7
+    },
+    {
+      "awardID": 6,
+      "awardDescription": "1.5 კვირა თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით ერთი კვირა თამბაქოსგან თავისუფალი",
+      "awardName": "1HalfWeek",
+      "imgName": "1_5week.png",
+      "disabledImgName": "1_5week2.png",
+      "awarded": false,
+      "reqNumber": 11
+    },
+    {
+      "awardID": 7,
+      "awardDescription": "2 კვირა თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით 2 კვირა თამბაქოსგან თავისუფალი",
+      "awardName": "2Weeks",
+      "imgName": "2weeks.png",
+      "disabledImgName": "2weeks2.png",
+      "awarded": false,
+      "reqNumber": 14
+    },
+    {
+      "awardID": 8,
+      "awardDescription": "3 კვირა თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით 3 კვირა თამბაქოსგან თავისუფალი",
+      "awardName": "3Weeks",
+      "imgName": "3weeks.png",
+      "disabledImgName": "3weeks2.png",
+      "awarded": false,
+      "reqNumber": 21
+    },
+    {
+      "awardID": 9,
+      "awardDescription": "1 თვე თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით ერთი თვე თამბაქოსგან თავისუფალი",
+      "awardName": "1month",
+      "imgName": "1month.png",
+      "disabledImgName": "1month2.png",
+      "awarded": false,
+      "reqNumber": 30
+    },
+    {
+      "awardID": 10,
+      "awardDescription": "2 თვე თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით 2 თვე თამბაქოსგან თავისუფალი",
+      "awardName": "2months",
+      "imgName": "2months.png",
+      "disabledImgName": "2months2.png",
+      "awarded": false,
+      "reqNumber": 60
+    },
+    {
+      "awardID": 11,
+      "awardDescription": "3 თვე თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით 3 თვე თამბაქოსგან თავისუფალი",
+      "awardName": "3months",
+      "imgName": "3months.png",
+      "disabledImgName": "3months2.png",
+      "awarded": false,
+      "reqNumber": 90
+    },
+    {
+      "awardID": 12,
+      "awardDescription": "6 თვე თამბაქოს გარეშე",
+      "reqDescription": "გთხოვთ, იყავით 6 თვე თამბაქოსგან თავისუფალი",
+      "awardName": "6months",
+      "imgName": "6months.png",
+      "disabledImgName": "6months2.png",
+      "awarded": false,
+      "reqNumber": 180
+    }
+  ]
+}
+

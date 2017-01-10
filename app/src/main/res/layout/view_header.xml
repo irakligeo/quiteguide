@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_header">
+
+    <!-- header view should be included in the layout resource of MainActivity
+         all event handling from this view should be controlled by MainActivity-->
+
+    <LinearLayout
+        android:id="@+id/header_back_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/spacing_small">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/access_back_arrow"
+            android:src="@drawable/back_arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeaderBlue"
+            android:layout_gravity="center_vertical"
+            android:text="@string/header_lbl_back"/>
+
+    </LinearLayout>
+
+    <!-- header style for journal page -->
+
+    <LinearLayout
+        android:id="@+id/header_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_marginEnd="@dimen/spacing_small">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeader"
+            android:layout_gravity="center_vertical"
+            android:text="@string/btn_save"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header_black_back_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/spacing_small">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/access_back_arrow"
+            android:src="@drawable/back_arrow_black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeader"
+            android:layout_gravity="center_vertical"
+            android:text="@string/header_lbl_back"/>
+
+    </LinearLayout>
+
+    <!--
+        time of day and location notification screen specific header layouts
+        todo clean this up and find a more general way to deal with header layout changes and event handling
+                                                                                                         -->
+    <RelativeLayout
+        android:id="@+id/header_notifications_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/spacing_small">
+
+        <ImageView android:id="@+id/notification_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/access_back_arrow"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_arrow_black"/>
+
+        <TextView android:id="@+id/notification_back_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeader"
+            android:layout_toRightOf="@id/notification_back"
+            android:layout_centerVertical="true"
+            android:text="@string/header_lbl_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeader"
+            android:text="@string/my_notifications"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/header_notifications_with_back_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/spacing_small">
+
+        <ImageView android:id="@+id/notification_back_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/access_back_arrow"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_arrow_black"/>
+
+        <TextView android:id="@+id/notification_back_plus_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeader"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/notification_back_plus"
+            android:text="@string/header_lbl_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeader"
+            android:text="@string/my_notifications"
+            android:layout_centerInParent="true"/>
+
+        <ImageButton android:id="@+id/ic_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/transparent"
+            android:src="@drawable/plus"
+            android:layout_marginEnd="@dimen/spacing_normal"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/lyt_header_loc_tod_drawer_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btn_loc_tod_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/spacing_normal_pp"
+            android:paddingTop="@dimen/spacing_normal"
+            android:paddingBottom="@dimen/spacing_normal"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:src="@drawable/btn_hamburger"
+            android:contentDescription="@string/access_menu_button"
+            style="@style/ImgButton" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/access_logo"/>
+
+        <ImageButton android:id="@+id/ic_loc_tod_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/transparent"
+            android:src="@drawable/plus"
+            android:layout_marginEnd="@dimen/spacing_normal"/>
+
+    </RelativeLayout>
+
+    <!-- main header buttons -->
+
+<RelativeLayout
+    android:id="@+id/header_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:visibility="visible">
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/spacing_normal_pp"
+        android:paddingTop="@dimen/spacing_normal"
+        android:paddingBottom="@dimen/spacing_normal"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:src="@drawable/btn_hamburger"
+        android:contentDescription="@string/access_menu_button"
+        style="@style/ImgButton" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/transparent"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/access_logo"/>
+
+    <ImageButton
+        android:id="@+id/btn_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/spacing_normal"
+        android:paddingTop="@dimen/spacing_normal"
+        android:paddingBottom="@dimen/spacing_normal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:src="@drawable/btn_stats"
+        android:contentDescription="@string/access_stats_button"
+        style="@style/ImgButton" />
+</RelativeLayout>
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

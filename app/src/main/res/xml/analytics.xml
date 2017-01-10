@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!--  The application name. Defaults to name specified for the application label &ndash;&gt;
+        <string name="ga_appName">quitStart</string>-->
+
+    <!--Replace placeholder ID with your tracking ID -->
+    <string name="ga_trackingId">UA-55344448-2</string>
+
+    <!--
+    <string name="ga_trackingId">UA-69137573-1</string>
+    -->
+
+    <!--Enable automatic activity tracking-->
+    <bool name="ga_autoActivityTracking">false</bool>
+
+
+
+    <!--Disable automatic exception tracking
+    <bool name="ga_reportUncaughtExceptions">false</bool>
+                                                      -->
+</resources>

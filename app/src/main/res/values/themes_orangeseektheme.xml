@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Theme.Orange.QuitGuideTheme" parent="_OrangeSeekTheme">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:datePickerStyle">@android:style/Widget.DeviceDefault.DatePicker</item>
+    <item name="android:background">@color/transparent</item>
+    <item name="android:windowBackground">@color/black</item>
+  </style>
+
+  <style name="_OrangeSeekTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <item name="android:seekBarStyle">@style/SeekBarOrangeSeekTheme</item>
+
+  </style>
+
+</resources>

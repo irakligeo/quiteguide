@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bar Chart</title>
+		<script src="Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = yes">
+		<style>
+			canvas{
+			}
+		</style>
+	</head>
+	<body>
+		 <canvas id="canvas" height="#HEIGHT_TOKEN#" width="#WIDTH_TOKEN#"></canvas>
+		
+
+	<script>
+	
+		var barChartData = {
+			labels : [#LABEL_TOKEN#],
+			datasets : [
+				{
+					fillColor : "rgba(220,220,220,0.5)",
+					strokeColor : "rgba(220,220,220,1)",
+					data : [#DATA_TOKEN#]
+				}
+			]
+			
+		};
+    var steps = 10;
+    var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Bar(barChartData, {
+																			   scaleOverride: true,
+                                                                               scaleSteps: steps,
+                                                                               scaleStepWidth: Math.ceil(10 / steps),
+                                                                               scaleStartValue: 0
+                                                                               });
+	
+	</script>
+	</body>
+</html>

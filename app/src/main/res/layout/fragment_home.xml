@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img">
+
+    <!-- top smokefree days indicator -->
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_tiny"
+        android:orientation="horizontal"
+        android:background="@color/transparent">
+
+        <TextView
+            android:id="@+id/num_days_smokefree"
+            style="@style/ContentHeaderWhiteLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00" />
+
+        <TextView
+            android:id="@+id/lbl_days_smoke_free"
+            style="@style/ContentTextThinWhiteLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_tiny"
+            android:text="@string/lbl_days_smokefree"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <!-- smokefree and slip button -->
+
+    <LinearLayout
+        android:id="@+id/ll_top_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_header"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:orientation="horizontal"
+        android:background="@color/transparent">
+
+        <ImageButton
+            android:id="@+id/btn_smokefree"
+            style="@style/ImgButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_large"
+            android:background="@drawable/btn_smokefree"
+            android:contentDescription="@string/access_smokefree_btn_desc" />
+
+        <ImageButton
+            android:id="@+id/btn_slipped"
+            style="@style/ImgButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:background="@drawable/btn_slipped"
+            android:contentDescription="@string/access_slipped_btn_desc" />
+    </LinearLayout>
+
+    <!-- reasons for quiting section -->
+
+    <RelativeLayout
+        android:id="@+id/rl_reasons_quitting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height_small"
+        android:layout_below="@id/ll_top_buttons"
+        android:layout_marginBottom="@dimen/spacing_tiny"
+        android:layout_marginEnd="@dimen/spacing_small"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:background="@color/gray">
+
+        <!-- these have large right margins to avoid overlapping the ImageView -->
+
+        <TextView
+            android:id="@+id/header_reason_quitting"
+            style="@style/ContentHeaderSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/view_height_small"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:text="@string/header_reason_quiting"
+            android:textAllCaps="true" />
+
+        <TextView
+            style="@style/ContentTextSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header_reason_quitting"
+            android:layout_marginEnd="@dimen/view_width_small"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="@string/txt_long_press_to_edit"
+            android:id="@+id/reasons_quitting" />
+
+        <ImageView
+            android:id="@+id/img_reason_quitting"
+            android:layout_width="@dimen/view_height_xsmall"
+            android:layout_height="@dimen/view_width_xsmall"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/spacing_normal"
+            android:background="@drawable/img_border"
+            android:contentDescription="@string/access_reason_quit_img"/>
+
+        <!-- paperclip -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/img_reason_quitting"
+            android:layout_alignTop="@id/img_reason_quitting"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="-4dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_paperclip" />
+
+    </RelativeLayout>
+
+    <!-- quitism section -->
+
+    <RelativeLayout
+        android:id="@+id/ll_quitisms"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height_small"
+        android:layout_below="@id/rl_reasons_quitting"
+        android:layout_marginBottom="@dimen/spacing_tiny"
+        android:layout_marginEnd="@dimen/spacing_small"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:background="@color/transparent_black"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/transparent"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/header_quitism"
+                style="@style/ContentHeaderWhiteSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/header_quitism"
+                android:layout_marginBottom="@dimen/spacing_tiny" />
+            <TextView
+                style="@style/ContentTextThinWhiteSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/spacing_tiny"
+                android:layout_marginEnd="@dimen/spacing_tiny"
+                android:id="@+id/quitism" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/btn_learn_to_quit"
+        android:background="@color/transparent"
+        android:layout_marginBottom="@dimen/spacing_tiny"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginEnd="@dimen/spacing_small">
+
+        <ImageButton
+            android:id="@+id/btn_track_craving"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_small"
+            style="@style/ImgButton"
+            android:background="@drawable/btn_track_craving"
+            android:contentDescription="@string/access_track_craving" />
+
+        <ImageButton
+            android:id="@+id/btn_manage_mood"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            style="@style/ImgButton"
+            android:background="@drawable/btn_manage_mood"
+            android:contentDescription="@string/access_manage_mood"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_learn_to_quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginEnd="@dimen/spacing_small"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:text="@string/learn_to_quit"
+        style="@style/ButtonTextWhite"
+        android:paddingTop="@dimen/spacing_small"
+        android:paddingBottom="@dimen/spacing_small"
+        android:background="@drawable/btn_dark_gray"/>
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

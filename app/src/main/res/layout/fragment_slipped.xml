@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fire_engine_red"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ContentHeaderWhiteLarge"
+        android:text="@string/slipped_isnt_easy"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_huge"
+            style="@style/ContentTextBurgundy"
+            android:text="@string/slipped_triggered"
+            android:layout_gravity="center_horizontal"/>
+
+        <RelativeLayout
+            android:id="@+id/slip_trigger_selector"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height_xxsmall"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/spacing_xlarge"
+            android:layout_marginStart="@dimen/spacing_xlarge"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/round_rect_solid_burgundy_border_white">
+
+            <TextView
+                android:id="@+id/trigger_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_normal_pp"
+                android:layout_marginEnd="@dimen/spacing_xlarge"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                style="@style/ContentTextOrange"
+                android:text="@string/default_trigger"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_normal"
+                android:paddingTop="@dimen/spacing_tiny"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_orange_down_arrow" />
+
+        </RelativeLayout>
+
+        <ImageButton android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_huge_plus"
+            android:src="@drawable/continue_btn"
+            android:background="@color/transparent"
+            android:contentDescription="@string/access_continue"/>
+
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:weightSum="2">
+            <ImageButton
+                android:id="@+id/btn_keep_going"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/btn_keep_going"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_keep_going"/>
+            <ImageButton
+                android:id="@+id/btn_new_quitdate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/btn_set_new_quitdate"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_new_quitdate"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/spacing_xlarge">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button android:id="@+id/btn_help_location"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginEnd="@dimen/spacing_large"
+                    android:paddingTop="@dimen/spacing_normal"
+                    android:paddingStart="@dimen/spacing_normal_plus"
+                    android:paddingEnd="@dimen/spacing_normal_plus"
+                    android:gravity="center|top"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_location_blank"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:text="@string/btn_loc_next_time"
+                    android:textAllCaps="false"
+                    android:contentDescription="@string/access_help_location"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button android:id="@+id/btn_help_time"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginStart="@dimen/spacing_large"
+                    android:paddingTop="@dimen/spacing_normal"
+                    android:paddingStart="@dimen/spacing_normal_plus"
+                    android:paddingEnd="@dimen/spacing_normal_plus"
+                    android:gravity="center|top"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_time_blank"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:text="@string/btn_time_current"
+                    android:textAllCaps="false"
+                    android:contentDescription="@string/access_help_time" />
+
+            </RelativeLayout>
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

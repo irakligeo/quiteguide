@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+<!--   <com.google.android.gms.maps.MapView
+       android:id="@+id/map_view"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </com.google.android.gms.maps.MapView>-->
+
+    <FrameLayout android:id="@+id/container_set_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+    <!--<fragment android:id="@+id/map_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />-->
+
+    <EditText android:id="@+id/edt_address_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_pp"
+        android:layout_marginEnd="@dimen/spacing_normal_pp"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:background="@drawable/rect_round_swhite_bgray"
+        android:singleLine="true"
+        android:imeOptions="actionDone"/>
+
+    <TextView android:id="@+id/tv_map_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_address_location"
+        android:layout_marginStart="@dimen/spacing_normal_pp"
+        android:layout_marginEnd="@dimen/spacing_normal_pp"
+        android:layout_marginTop="@dimen/spacing_small"
+        style="@style/ContentTextLargeWhite"
+        android:gravity="center"
+        android:text="@string/map_instructions"
+        android:background="@drawable/rect_round_sblack_nb"/>
+
+    <LinearLayout android:id="@+id/lyt_addr_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_map_instructions"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/spacing_normal_pp"
+        android:layout_marginEnd="@dimen/spacing_normal_pp"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:background="@drawable/rect_round_swhite_bgray_no_pad"
+        android:visibility="gone">
+
+        <TextView android:id="@+id/header_addr_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeader"
+            android:background="@drawable/top_rounded_light_gray4"
+            android:paddingStart="@dimen/spacing_normal"
+            android:paddingEnd="@dimen/spacing_normal"
+            android:paddingTop="@dimen/spacing_tiny"
+            android:paddingBottom="@dimen/spacing_tiny"
+            android:text="@string/header_addr_list"/>
+
+    <ListView android:id="@+id/lv_matching_addresses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_normal_plus"
+        android:src="@drawable/btn_selector_close"
+        android:background="@drawable/rect_round_sblack_nb"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="@dimen/spacing_normal"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:contentDescription="@string/access_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

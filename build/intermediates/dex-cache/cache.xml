@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.p_v/flexiblecalendar/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5b685bcbf9ed88ed956a97a2ef18ec01864012c">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.p_v-flexiblecalendar-1.1.3_cf564e15f016e2eafbdaa227b1dd94f52f046cc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_38e3af483808ce0de3711b5ca301af52534d8f8a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-v13/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c07fb99b729345908dda75fadbbf882e300631ff">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8952d3436bb939973430edded85195eaa06e817e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72a493d9ad06cc66daa864ba8dd0ba6416f2e01b">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6b571145a6816e39f21a98ad8767007629fc7a12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_745b99162d94399f340add7785abd56904e30c97/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dc6c5f4bb34315c98476469344d481c8e3ca90ad">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/net.danlew-android.joda-2.9.0_4fea9e2a6d2e32890d890b82f3cd506d9ae11c85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.6_fb126a80b41fe8b34a6a03edf231bcaeb9b3a789.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/se.emilsjolander/StickyScrollViewItems/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b17ff4914892992c91e7b585ed74c1e782c5d1a1">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/se.emilsjolander-StickyScrollViewItems-1.1.0_8632712c909c5953ba77003cf4ab07054c3a12c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_f85b3d221fc469855949b8c6906933090c11b9cb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_3c28b2e9ac7e7f48d9be962cbd6245c84beef992/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-android-4.48_4fe7b5910b0ceccc62da6c51dd9778909481fbd8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_a3573dcafc5ca555ffcebc3f0e823a14812afcbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9/db8dd9d75280b1d1d9587ed0d39b4108d0e655e9/joda-time-2.9-no-tzdb.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db8dd9d75280b1d1d9587ed0d39b4108d0e655e9">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/joda-time-2.9-no-tzdb_aa52840fb73faa55d220809eb60cc73b0045e756.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_11b02a2ac5e5a50d899052e70b2dbbadb2dadde8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a3b52ee82106fa35e683cc172d33d249d3119585/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_e65ff5c5a5d231039757d133585dae310f1ef913/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/sqliteassethelper-2.0.1_2a598c70c53e66fe0f52fdfce1f9fff2bd1aa26c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_887023459df972b44179049dfb79ca7cd6bfb8cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_0ecd1581fd82ae32763bcae0c7b2084e53aed365/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_44249d7eb0712436770f61418c7bdba9a0a60c1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.daimajia.swipelayout-library-1.2.0_5ca0a18ce68d763cd4236dc6fb6886b6acfff025.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_812b7642187375d547a85b302607a1793ffb878c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_3227aa12160dd06bb118fb3686ed15e6983fb25f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_d76aa149d75eb13604322ee94f8fbb6e666929e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48_b9520a403b89d91601f1c7fbf94a838c37514880.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_608e2e2793b836cecf58d7ba505a4ae7d1a2d0b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.1.4_2c40fd2b84238a62d05dc33112b9495400596530/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.5.5_96a1ecd63c88b8a685ed43e7d8905811656f8041.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_b48af99681efacbeb923eae3cae5d4d18aea83cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.10_02aaadd828c3ad386d6d5760eb3091b3c7d7a28d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-v13/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e3c7e8ff9f476d0d93ee7b046fbe8037a2b822c0">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-24.2.1_b9a6c33e897de657490b637fdc44607490e00b97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_995508b09066634c998343d7cbd4cf5f4b0aa6df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_38e3af483808ce0de3711b5ca301af52534d8f8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9d52209b424262ad8f4b4107914bc84a443adc2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.6.1_3907ff7d7ee8bf6a68210d4c73769963ad7db388/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.p_v/flexiblecalendar/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5b685bcbf9ed88ed956a97a2ef18ec01864012c">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.p_v-flexiblecalendar-1.1.3_cf564e15f016e2eafbdaa227b1dd94f52f046cc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.github.davidpizarro/pickerui/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba5d942e89c3ae59ca8ef23176eb642aba5e28f6">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.davidpizarro-pickerui-1.0.0_6545a3780eb8c139f285824eb52e273f03532323/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_67275efe6bd6b35083b66782042153a0f4687aed/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.8_02cd75572dcf2e1cdecc904e9169a7113b15a722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_a3573dcafc5ca555ffcebc3f0e823a14812afcbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-v13/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c07fb99b729345908dda75fadbbf882e300631ff">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8952d3436bb939973430edded85195eaa06e817e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/se.emilsjolander/StickyScrollViewItems/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b17ff4914892992c91e7b585ed74c1e782c5d1a1">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/se.emilsjolander-StickyScrollViewItems-1.1.0_8632712c909c5953ba77003cf4ab07054c3a12c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_f85b3d221fc469855949b8c6906933090c11b9cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_e65ff5c5a5d231039757d133585dae310f1ef913.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9/db8dd9d75280b1d1d9587ed0d39b4108d0e655e9/joda-time-2.9-no-tzdb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db8dd9d75280b1d1d9587ed0d39b4108d0e655e9">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9-no-tzdb_aa52840fb73faa55d220809eb60cc73b0045e756/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dc6c5f4bb34315c98476469344d481c8e3ca90ad">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/net.danlew-android.joda-2.9.0_4fea9e2a6d2e32890d890b82f3cd506d9ae11c85/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_745b99162d94399f340add7785abd56904e30c97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_3c28b2e9ac7e7f48d9be962cbd6245c84beef992.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_887023459df972b44179049dfb79ca7cd6bfb8cd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/sqliteassethelper-2.0.1_2a598c70c53e66fe0f52fdfce1f9fff2bd1aa26c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_44249d7eb0712436770f61418c7bdba9a0a60c1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a3b52ee82106fa35e683cc172d33d249d3119585.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.6_fb126a80b41fe8b34a6a03edf231bcaeb9b3a789/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_11b02a2ac5e5a50d899052e70b2dbbadb2dadde8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_0ecd1581fd82ae32763bcae0c7b2084e53aed365.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_812b7642187375d547a85b302607a1793ffb878c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.1.4_2c40fd2b84238a62d05dc33112b9495400596530.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.swipelayout-library-1.2.0_5ca0a18ce68d763cd4236dc6fb6886b6acfff025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-core-4.48_b9520a403b89d91601f1c7fbf94a838c37514880/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.4.0_608e2e2793b836cecf58d7ba505a4ae7d1a2d0b9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_d76aa149d75eb13604322ee94f8fbb6e666929e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48_4fe7b5910b0ceccc62da6c51dd9778909481fbd8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.5.5_96a1ecd63c88b8a685ed43e7d8905811656f8041/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_3227aa12160dd06bb118fb3686ed15e6983fb25f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.10_02aaadd828c3ad386d6d5760eb3091b3c7d7a28d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_b48af99681efacbeb923eae3cae5d4d18aea83cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-v13/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e3c7e8ff9f476d0d93ee7b046fbe8037a2b822c0">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v13-24.2.1_b9a6c33e897de657490b637fdc44607490e00b97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_995508b09066634c998343d7cbd4cf5f4b0aa6df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.github.davidpizarro/pickerui/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba5d942e89c3ae59ca8ef23176eb642aba5e28f6">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.github.davidpizarro-pickerui-1.0.0_6545a3780eb8c139f285824eb52e273f03532323.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45b6799d3893b9701156e417351c87522b671e18">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6a5e3d01383f044404560850b42a2d6e79b3d296/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/glide-3.6.1_3907ff7d7ee8bf6a68210d4c73769963ad7db388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_67275efe6bd6b35083b66782042153a0f4687aed.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.8_02cd75572dcf2e1cdecc904e9169a7113b15a722/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/GeoLab/Downloads/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/HumanRights v1.1.0 - Lawyer and Attorney WordPress Theme/QuitGuide Android/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9d52209b424262ad8f4b4107914bc84a443adc2c.jar" />
+    </item>
+
+</items>

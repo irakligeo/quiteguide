@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Line Chart</title>
+		<script src="Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = yes">
+		<style>
+			canvas{
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" height="320" width="320"></canvas>
+
+
+	<script>
+
+		var lineChartData = {
+			labels : [#LABEL_TOKEN#],
+			datasets : [
+				{
+					fillColor : "rgba(220,220,220,0.5)",
+					strokeColor : "rgba(220,220,220,1)",
+					pointColor : "rgba(220,220,220,1)",
+					pointStrokeColor : "#fff",
+					data : [#DATA_TOKEN#]
+				}
+			]
+			
+		}
+    var steps = 10;
+    var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Line(lineChartData, {
+                                                                                scaleOverride: true,
+                                                                                scaleSteps: steps,
+                                                                                scaleStepWidth: Math.ceil(10 / steps),
+                                                                                scaleStartValue: 0
+                                                                                });
+	
+	</script>
+	</body>
+</html>

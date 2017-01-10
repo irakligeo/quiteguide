@@ -1,0 +1,50 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- font sizes -->
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_normal">15sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_xlarge">22sp</dimen>
+    <dimen name="font_xxlarge">26sp</dimen>
+    <dimen name="font_huge">40sp</dimen>
+
+    <!-- spacing sizes -->
+    <dimen name="spacing_massive">120dp</dimen>
+    <dimen name="spacing_xxhuge">90dp</dimen>
+    <dimen name="spacing_xhuge">80dp</dimen>
+    <dimen name="spacing_huge">40dp</dimen>
+    <dimen name="spacing_huge_plus">50dp</dimen>
+    <dimen name="spacing_xxlarge">34dp</dimen>
+    <dimen name="spacing_xlarge">28dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_normal_pp">20dp</dimen>
+    <dimen name="spacing_normal_plus">16dp</dimen>
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_xsmall">6dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_xtiny">2dp</dimen>
+
+    <!-- view area sizes -->
+
+    <dimen name="view_height_tiny">35dp</dimen>
+    <dimen name="view_height_xxsmall">50dp</dimen>
+    <dimen name="view_height_xsmall">75dp</dimen>
+    <dimen name="view_height_small">100dp</dimen>
+    <dimen name="view_height_normal">125dp</dimen>
+    <dimen name="view_height_large">150dp</dimen>
+    <dimen name="view_height_huge">400dp</dimen>
+    <dimen name="view_height_massive">550dp</dimen>
+    <dimen name="view_width_xsmall">75dp</dimen>
+    <dimen name="view_width_small">100dp</dimen>
+    <dimen name="view_width_normal">125dp</dimen>
+    <dimen name="view_width_large">150dp</dimen>
+    <dimen name="view_width_xxlarge">200dp</dimen>
+    <dimen name="view_big">300dp</dimen>
+    <dimen name="padding_tiny">2dp</dimen>
+    <dimen name="spacing_small_plus">12dp</dimen>
+
+</resources>

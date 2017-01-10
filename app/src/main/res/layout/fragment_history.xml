@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/header_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ContentHeaderWhiteLarge"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/history"
+        android:textAllCaps="true"/>
+
+    <LinearLayout android:id="@+id/lyt_nav_btns_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_history"
+        android:weightSum="4"
+        android:layout_marginTop="@dimen/spacing_normal">
+
+        <ImageButton
+            android:id="@+id/btn_history_calendar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_calendar"
+            android:contentDescription="@string/access_calendar"
+            android:layout_gravity="center"
+            android:background="@color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/btn_history_list"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_history_list"
+            android:contentDescription="@string/access_history_list"
+            android:layout_gravity="center"
+            android:background="@color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/btn_history_plot"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_mood_plot_graph"
+            android:contentDescription="@string/access_history_plot"
+            android:layout_gravity="center"
+            android:background="@color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/btn_history_graph"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_triggers_bar_graph"
+            android:contentDescription="@string/access_history_graph"
+            android:layout_gravity="center"
+            android:background="@color/transparent"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/hr_history"
+        android:layout_below="@+id/lyt_nav_btns_history"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:background="@color/blue_green" />
+
+    <RelativeLayout
+        android:id="@+id/frag_container_history"
+        android:layout_below="@id/hr_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

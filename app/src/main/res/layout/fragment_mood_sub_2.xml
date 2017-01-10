@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/ContentHeaderWhiteLarge"
+            android:text="@string/header_manage_mood"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_huge"
+            android:layout_gravity="center_horizontal"
+            style="@style/ContentTextGreen"
+            android:text="@string/lbl_what_whould_you_like" />
+
+        <ImageButton
+            android:id="@+id/btn_mood2_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_xlarge"
+            android:src="@drawable/btn_small_tips_distractions"
+            android:background="@color/transparent"
+            android:contentDescription="@string/access_tips_and_distractions"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageButton
+                android:id="@+id/btn_mood2_read_notes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/btn_view_notes_photos"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_view_notes_and_photos"/>
+            <ImageButton
+                android:id="@+id/btn_mood2_journal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/btn_small_journal"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_journal"/>
+            <ImageButton
+                android:id="@+id/btn_mood2_call_friend"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/btn_small_call_friend"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_call_a_friend"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

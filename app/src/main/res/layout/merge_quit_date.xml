@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO make sure to switch out the src for quitdate when not in intro mode -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/ContentHeaderWhiteLarge"
+        android:text="@string/lbl_quit_date"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/spacing_normal"/>-->
+
+    <!--<TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/ContentTextThinHugeOrange"
+        android:text="12/10/2015"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/spacing_tiny"/>-->
+
+    <Button
+        android:id="@+id/btn_quit_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_large"
+        style="@style/ButtonWithBgWhiteText"
+        android:background="@drawable/select_quit_date"
+        android:contentDescription="@string/access_select_quitdate"
+        android:text="@string/btn_lbl_select_quitdate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/ContentTextSmallGray"
+        android:text="@string/lbl_two_weeks"/>
+
+    <ImageButton
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:src="@drawable/share"
+        android:contentDescription="@string/access_share"
+        android:background="@color/transparent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        style="@style/ContentTextSmallGray"
+        android:text="@string/lbl_optional" />
+</merge>

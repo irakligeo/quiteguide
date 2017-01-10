@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/lbl_smokedays_frequency"
+        style="@style/ContentTextSilver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xlarge"
+        android:text="@string/lbl_how_often" />
+
+    <LinearLayout
+        android:id="@+id/ll_smokedays_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_smokedays_frequency"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/seek_smokedays_frequency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_weight="2"
+            android:background="@color/transparent"
+            android:layout_gravity="center_vertical"
+            android:max="7"
+            android:contentDescription="@string/access_seek_smokedays_frequency"/>
+
+        <TextView
+            android:id="@+id/val_smokedays_frequency"
+            style="@style/ContentTextWhite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0 days a week"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_numcigs_frequency"
+        style="@style/ContentTextSilver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xlarge"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/lbl_how_many"
+        android:layout_below="@id/ll_smokedays_frequency" />
+
+    <LinearLayout
+        android:id="@+id/ll_numcigs_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_numcigs_frequency"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/seek_numcigs_frequency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_weight="2"
+            android:background="@color/transparent"
+            android:layout_gravity="center_vertical"
+            android:max="50"
+            android:contentDescription="@string/access_seek_numcigs_frequency"/>
+
+        <TextView
+            android:id="@+id/val_numcigs_frequency"
+            style="@style/ContentTextWhite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_crave_frequency"
+        style="@style/ContentTextSilver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xlarge"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/lbl_when_craving"
+        android:layout_below="@id/ll_numcigs_frequency" />
+
+    <LinearLayout
+        android:id="@+id/ll_crave_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_crave_frequency"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/seek_crave_frequency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_weight="2"
+            android:background="@color/transparent"
+            android:layout_gravity="center_vertical"
+            android:max="2"
+            android:contentDescription="@string/access_seek_crave_frequency"/>
+
+        <TextView
+            android:id="@+id/val_crave_frequency"
+            style="@style/ContentTextWhite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Morning"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_price_pack"
+        style="@style/ContentTextSilver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xlarge"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/lbl_price_pack"
+        android:layout_below="@id/ll_crave_frequency" />
+
+    <LinearLayout
+        android:id="@+id/ll_price_pack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_price_pack"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/seek_price_pack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:layout_weight="2"
+            android:background="@color/transparent"
+            android:layout_gravity="center_vertical"
+            android:max="1500"
+            android:contentDescription="@string/access_seek_price_pack"/>
+
+        <TextView
+            android:id="@+id/val_price_pack"
+            style="@style/ContentTextWhite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="$0.00"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/ll_price_pack"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:background="@color/transparent"
+        android:contentDescription="@string/access_continue"
+        android:src="@drawable/continue_btn"
+        android:layout_centerHorizontal="true"/>
+</merge>

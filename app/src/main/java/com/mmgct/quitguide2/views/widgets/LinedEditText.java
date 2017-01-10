@@ -1,0 +1,51 @@
+package com.mmgct.quitguide2.views.widgets;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Rect;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.widget.EditText;
+
+/**
+ * Created by 35527 on 12/1/2015.
+ */
+public class LinedEditText extends EditText {
+
+    private static final String TAG = "LinedEditText";
+    private static Paint linePaint;
+
+    static {
+        linePaint = new Paint();
+        linePaint.setColor(Color.BLACK);
+        linePaint.setStyle(Paint.Style.STROKE);
+
+    }
+
+    public LinedEditText(Context context) {
+        super(context);
+    }
+
+    public LinedEditText(Context context, AttributeSet attributes) {
+        super(context, attributes);
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        Rect bounds = new Rect();
+        int firstLineY = getLineBounds(0, bounds);
+        int lineHeight = getLineHeight();
+        int totalLines = Math.max(getLineCount(), getHeight() / lineHeight);
+        
+        for (int i = 0; i < totalLines; i++) {
+            int lineY = firstLineY + i * lineHeight;
+            canvas.drawLine(bounds.left, lineY, bounds.right, lineY, linePaint);
+        }
+
+        super.onDraw(canvas);
+    }
+
+
+}

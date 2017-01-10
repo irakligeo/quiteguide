@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_diag_user_input_error"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/header_dialog_decision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="STUB"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/content_dialog_decision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:text="STUB"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btn_left_dialog_decision"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingBottom="25dp"
+                android:paddingTop="25dp"
+                android:text="YES"
+                android:textColor="@color/light_blue"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/btn_right_dialog_decision"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingBottom="25dp"
+                android:paddingTop="25dp"
+                android:text="NO"
+                android:textColor="@color/light_blue"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

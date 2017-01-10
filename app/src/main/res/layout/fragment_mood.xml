@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/manage_mood_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xxlarge"
+        style="@style/ContentHeaderWhiteLarge"
+        android:text="@string/manage_mood"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/layout_face_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        android:layout_marginBottom="@dimen/spacing_xhuge"
+        android:layout_below="@id/manage_mood_header"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <!-- row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_happy"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_happy_mood"
+                android:contentDescription="@string/access_happy"/>
+            <ImageButton
+                android:id="@+id/btn_excited"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_excited_mood"
+                android:contentDescription="@string/access_excited"/>
+            <ImageButton
+                android:id="@+id/btn_relaxed"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_relaxed_mood"
+                android:contentDescription="@string/access_relaxed"/>
+
+        </LinearLayout>
+
+        <!-- row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_angry"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_angry_mood"
+                android:contentDescription="@string/access_angry"/>
+            <ImageButton
+                android:id="@+id/btn_anxious"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_anxious_mood"
+                android:contentDescription="@string/access_anxious"/>
+            <ImageButton
+                android:id="@+id/btn_frustrated"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_frustrated_mood"
+                android:contentDescription="@string/access_frustrated"/>
+
+        </LinearLayout>
+        <!-- row 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_nervous"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_nervous_mood"
+                android:contentDescription="@string/access_nervous"/>
+            <ImageButton
+                android:id="@+id/btn_sad"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_sad_mood"
+                android:contentDescription="@string/access_sad"/>
+            <ImageButton
+                android:id="@+id/btn_stressed"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/btn_stressed_mood"
+                android:contentDescription="@string/access_stressed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img">
+
+    <TextView
+        android:id="@+id/quitplan_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        style="@style/ContentHeaderWhiteLarge"
+        android:text="@string/header_your_quit_plan"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/btn_quitplan_quitdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xlarge"
+        android:src="@drawable/quitplan_your_quit_date_button"
+        android:contentDescription="@string/access_your_quitdate"
+        android:background="@color/transparent"
+        android:layout_below="@id/quitplan_header"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/btn_quitplan_reasons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        android:src="@drawable/quitplan_reasons_somefree_button"
+        android:contentDescription="@string/access_reasons_smokefree"
+        android:background="@color/transparent"
+        android:layout_below="@id/btn_quitplan_quitdate"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:id="@+id/btn_quitplan_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        android:src="@drawable/quitplan_track_progress_button"
+        android:contentDescription="@string/access_track_progress"
+        android:background="@color/transparent"
+        android:layout_below="@id/btn_quitplan_reasons"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/btn_quitplan_reset_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal_pp"
+        android:layout_marginBottom="@dimen/spacing_normal_pp"
+        android:src="@drawable/quitplan_reset_profile_button"
+        android:contentDescription="@string/access_reset_profile"
+        android:background="@color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

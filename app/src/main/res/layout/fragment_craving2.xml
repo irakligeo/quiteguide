@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pumpkin"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/crave_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/font_xlarge"
+            android:layout_marginEnd="@dimen/font_xlarge"
+            android:gravity="center"
+            style="@style/ContentHeaderWhite"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/spacing_huge">
+
+            <ImageButton
+                android:id="@+id/btn_crave_journal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_orange_journal"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_journal"/>
+
+            <ImageButton
+                android:id="@+id/btn_crave_finish"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_orange_finish"
+                android:background="@color/transparent"
+                android:contentDescription="@string/access_finish_button"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:layout_marginTop="@dimen/spacing_xlarge">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <Button android:id="@+id/btn_help_location"
+            android:layout_width="107dp"
+            android:layout_height="107dp"
+            android:layout_marginEnd="@dimen/spacing_large"
+            android:paddingTop="@dimen/spacing_normal"
+            android:paddingStart="@dimen/spacing_normal_plus"
+            android:paddingEnd="@dimen/spacing_normal_plus"
+            android:gravity="center|top"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_location_blank"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:text="@string/btn_loc_next_time"
+            android:textAllCaps="false"
+            android:contentDescription="@string/access_help_location"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <Button android:id="@+id/btn_help_time"
+            android:layout_width="107dp"
+            android:layout_height="107dp"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:paddingTop="@dimen/spacing_normal"
+            android:paddingStart="@dimen/spacing_normal_plus"
+            android:paddingEnd="@dimen/spacing_normal_plus"
+            android:gravity="center|top"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_time_blank"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:text="@string/btn_time_current"
+            android:textAllCaps="false"
+            android:contentDescription="@string/access_help_time" />
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

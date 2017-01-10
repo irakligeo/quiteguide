@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue2"
+    android:clickable="true">
+
+    <ScrollView android:id="@+id/sv_choose_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/spacing_huge_plus">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/spacing_normal_pp"
+        android:layout_marginEnd="@dimen/spacing_normal">
+
+        <TextView
+            android:id="@+id/header_user_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeaderWhiteLarge"
+            android:textSize="@dimen/font_large"
+            android:layout_marginTop="@dimen/spacing_normal_pp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/iv_user_pic"
+            android:layout_width="@dimen/view_height_normal"
+            android:layout_height="@dimen/view_height_normal"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/white_frame"
+            android:src="@drawable/ic_camera"
+            android:scaleType="center"
+            android:layout_marginTop="@dimen/spacing_large"/>
+
+        <EditText android:id="@+id/edt_user_tip"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height_small"
+            android:background="@drawable/rounded_rect_white"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:contentDescription="@string/access_user_tip"
+            android:gravity="top|left"
+            android:inputType="textCapSentences"/>
+
+        <Button
+            android:id="@+id/btn_send_custom_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/black_button_background"
+            android:text="@string/btn_text_send_custom_tip"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_send_random_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/black_button_background"
+            android:text="@string/btn_txt_send_random_tip"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>

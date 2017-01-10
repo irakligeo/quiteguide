@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- categories -->
+
+    <string name="category_menu">მენიუ</string>
+    <string name="category_main">მთავარი</string>
+    <string name="category_history">ისტორია</string>
+    <string name="category_track">სურვილი</string>
+    <string name="category_mood">განწყობა</string>
+    <string name="category_quit_date">QuitDate</string>
+    <string name="category_quit_plan">QuitPlan</string>
+    <string name="category_smoke_free">Smokefree</string>
+    <string name="category_craving">მიდევნება</string>
+    <string name="category_slipped">Slipped</string>
+    <string name="category_craving_action">CravingAction</string>
+    <string name="category_status">სტატუსი</string>
+    <string name="category_reasons">მიზეზები</string>
+    <string name="category_start_pages">საწყისი გვერდები</string>
+    <string name="category_respondent_participant_id">respondentParticipantID</string>
+    <string name="category_reports">რეპორტები</string>
+    <string name="category_notification_tip">შეტყობინების ტიპი</string>
+    <string name="category_notification_map_list">NotificationMapList</string>
+    <string name="category_whats_new_notifications">WhatsNewNotifications</string>
+    <string name="category_notification_time_select">NotificationTimeSelect</string>
+    <string name="category_notification_fired_and_accepted">NotificationFiredAndAccepted</string>
+
+    <!-- actions -->
+    
+    <string name="action_home_selected">HomeSelected</string>
+    <string name="action_history">ისტორია</string>
+    <string name="action_quit_plan">QuitPlan</string>
+    <string name="action_how_to_quit">HowToGuide</string>
+    <string name="action_journal">ჟურნალი</string>
+    <string name="action_settings">პარამეტრები</string>
+    <string name="action_smokefree">Smokefree</string>
+    <string name="action_manage_mood">მართე განწყობა</string>
+    <string name="action_track_craving">TrackCraving</string>
+    <string name="action_slip">Slip</string>
+    <string name="action_table_selected">TableSelected</string>
+    <string name="action_line_graph_selected">LineGraphSelected</string>
+    <string name="action_bar_chart_selected">BarChartSelected</string>
+    <string name="action_calendar_selected">CalendarSelected</string>
+    <string name="action_number_of_cigs">NumberOfCigarettes</string>
+    <string name="action_number_of_smoking_days">NumberOfSmokingDays</string>
+    <string name="action_price_per_pack">PricePerPack</string>
+    <string name="action_time_of_day">TimeofDay</string>
+    <string name="action_type">Type</string>
+    <string name="action_negative_mood">NegativeMood</string>
+    <string name="action_positive_mood">PositiveMood</string>
+    <string name="action_quit_date_set">QuitDateSet</string>
+    <string name="action_share_quit_date">ShareQuitDate</string>
+    <string name="action_another_day_in_app">AnotherDayInApp</string>
+    <string name="action_view_stats">ViewStats</string>
+    <string name="action_view_history">ViewHistory</string>
+    <string name="action_closed">დაკეტვა</string>
+    <string name="action_craving_level">წყურვილის დონე</string>
+    <string name="action_slipped">Slipped</string>
+    <string name="action_keep_going">გააგრძელე</string>
+    <string name="action_new_quit_date_set">მოწევის დანებების ახალი თარიღი</string>
+    <string name="action_finished">დასრულება</string>
+    <string name="action_share_stats_selected">ShareStatsSelected</string>
+    <string name="action_reasons_to_quit_updated">ReasonsToQuitUpdated</string>
+    <string name="action_welcome_screen_viewed">კეთილი იყოს თქვენი მობრძანება</string>
+    <string name="action_edit_reason_to_quit">შეცვალე თავის დანებების მიზეზი</string>
+    <string name="action_registration">რეგისტრაცია</string>
+    <string name="action_events_triggered">მოვლენები გამოიწვია</string>
+    <string name="action_location_help">დახმარების ადგილი</string>
+    <string name="action_time_help">დახმარების დრო</string>
+    <string name="action_save_custom_notification">შეინახე ჩვეული შეტყობინება</string>
+    <string name="action_save_random_notification">შეინახე შემთხვევითი შეტყობინება</string>
+    <string name="action_request_another_notification">სხვა შეტყობინების მოთხოვნა</string>
+    <string name="action_canceled">გაუქმება</string>
+    <string name="action_map_selected">არჩეული რუკა</string>
+    <string name="action_list_selected">არჩეული სია</string>
+    <string name="action_select_time_item">აირჩიე თარიღი</string>
+    <string name="action_selection_location_item">აირჩიე ადგილმდებარეობა</string>
+    <string name="action_delete_notification">წაშალეთ შეტყობინებები</string>
+    <string name="action_enable_notification_item">ჩართე შეტყობინებები</string>
+    <string name="action_disable_notification_item">გამორთე შეტყობინებები</string>
+    <string name="action_add_time">დაამატე თარიღი</string>
+    <string name="action_add_location_by_address">დაამატე ადგილმდებარეობა მისამართის მიხედვით</string>
+
+    <!-- labels -->
+
+    <string name="label_tips_distractions">რჩევები/ყურადღების გადატანა</string>
+    <string name="label_journal">ჟურნალი</string>
+    <string name="label_call_friend">დაურეკე მეგობარს</string>
+    <string name="label_read_notes">წაიკითხე ჩანაწერები</string>
+    <string name="label_closed">დახურულია</string>
+    <string name="label_take_photo">გადაიღე ფოტო</string>
+    <string name="label_write_note">გააკეთე ჩანაწერი</string>
+    <string name="label_add_location">დაამატე ადგილმდებარეობა</string>
+    <string name="label_add_time">დაამატე თარიღი</string>
+    <string name="label_add_location_by_address">დაამატე ადგილმდებარეობა მისამართის მიხედვით</string>
+    <string name="label_time_of_day">დღის მონაკვეთი</string>
+
+</resources>

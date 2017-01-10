@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="vertical">
+
+            <!-- section 1 -->
+
+            <TextView
+                style="@style/ContentHeaderWhiteLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/header_about_quitguide"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:text="@string/p1_about_quitguide"
+                style="@style/ContentTextWhite"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/p2_about_quitguide"
+                style="@style/ContentTextWhite"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/p3_about_quitguide"
+                style="@style/ContentTextWhite"
+                />
+
+            <!-- section 2 -->
+
+            <TextView
+                style="@style/ContentHeaderWhiteLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xlarge"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/header_about_privacy"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:text="@string/p1_about_privacy"
+                style="@style/ContentTextWhite"
+                />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginEnd="@dimen/spacing_small"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:text="@string/p2_about_privacy"
+            style="@style/ContentTextWhite"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/p3_about_privacy"
+                style="@style/ContentTextWhite"
+                />
+
+            <!-- section 3 -->
+
+            <TextView
+                style="@style/ContentHeaderWhiteLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xlarge"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/header_about_terms"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:text="@string/p1_about_terms"
+                style="@style/ContentTextWhite"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/p2_about_terms"
+                style="@style/ContentTextWhite"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/p3_about_terms"
+                style="@style/ContentTextWhite"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/p4_about_terms"
+                style="@style/ContentTextWhite"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/p5_about_terms"
+                style="@style/ContentTextWhite"
+                />
+
+
+        </LinearLayout>
+</ScrollView>
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>
+

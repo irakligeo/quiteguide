@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="25dp"
+    android:paddingLeft="25dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_diag_user_input_error">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingTop="25dp"
+            android:textColor="@color/black"
+            android:text="STUB"
+            android:id="@+id/dialog_text"
+            android:paddingBottom="25dp"/>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingTop="25dp"
+            android:id="@+id/btn_dismiss"
+            android:textStyle="bold"
+            android:textColor="@color/light_blue"
+            android:paddingBottom="25dp"
+            android:text="Dismiss"/>
+
+    </LinearLayout>
+</FrameLayout>

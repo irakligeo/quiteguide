@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mmgct.quitguide2.views.widgets.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pumpkin"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ContentHeaderWhiteLarge"
+            android:text="@string/header_craving"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_normal"
+            style="@style/ContentTextBrown"
+            android:text="@string/craving_strength"
+            android:layout_gravity="center_horizontal"/>
+
+        <RelativeLayout
+            android:id="@+id/craving_strength_slider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height_xxsmall"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/spacing_xlarge"
+            android:layout_marginStart="@dimen/spacing_xlarge"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:background="@drawable/round_rect_solid_brown_border_white">
+
+
+            <SeekBar
+                android:id="@+id/craving_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_normal"
+                android:layout_marginEnd="@dimen/spacing_normal"
+                android:background="@color/transparent"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:max="10"
+                android:contentDescription="@string/access_craving_seekbar"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:tag="1"
+                android:id="@+id/craving_slider_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:textColor="@color/white"
+                android:text="1"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="2"
+                android:id="@+id/craving_slider_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="2"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="3"
+                android:id="@+id/craving_slider_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="3"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="4"
+                android:id="@+id/craving_slider_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="4"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="5"
+                android:id="@+id/craving_slider_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="5"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="6"
+                android:id="@+id/craving_slider_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="6"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="7"
+                android:id="@+id/craving_slider_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="7"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="8"
+                android:id="@+id/craving_slider_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="8"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="9"
+                android:id="@+id/craving_slider_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="9"
+                android:paddingEnd="@dimen/font_normal" />
+            <TextView
+                android:tag="10"
+                android:id="@+id/craving_slider_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ContentHeader"
+                android:text="10" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_normal"
+            style="@style/ContentTextBrown"
+            android:text="@string/craving_trigger"
+            android:layout_gravity="center_horizontal"/>
+
+        <RelativeLayout
+            android:id="@+id/craving_trigger_select"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height_xxsmall"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/spacing_xlarge"
+            android:layout_marginStart="@dimen/spacing_xlarge"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:layout_marginBottom="@dimen/spacing_small"
+            android:background="@drawable/round_rect_solid_brown_border_white">
+
+            <TextView
+                android:id="@+id/trigger_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_normal_pp"
+                android:layout_marginEnd="@dimen/spacing_xlarge"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                style="@style/ContentTextOrange2"
+                android:text="@string/default_trigger"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_normal"
+                android:paddingTop="@dimen/spacing_tiny"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_orange_down_arrow" />
+
+        </RelativeLayout>
+        <include layout="@layout/merge_continue_btn" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/merge_btn_close" />
+
+</com.mmgct.quitguide2.views.widgets.SlideRelativeLayout>
