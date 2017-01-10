@@ -24,6 +24,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/spacing_normal"
         style="@style/ContentTextWhite"
-        android:text="trophy description" />
+        android:text="ჯილდოს აღწერა" />
 
 </LinearLayout>

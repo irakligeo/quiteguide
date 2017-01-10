@@ -79,7 +79,7 @@ public class QuitDateIntroFragment extends QuitDateBaseFragment implements Dialo
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        OkDialog.newInstance("ოპს!\n\nშენ არ გაქვს შერჩეული მოწევისთვის თავის დანებების დღე.")
+                        OkDialog.newInstance("უპს!\n\nშენ არ გაქვს შერჩეული მოწევისთვის თავის დანებების დღე.")
                                 .show(getFragmentManager(), "");
                     }
                 });

@@ -175,8 +175,8 @@ public class SettingsFragment extends BaseFragment implements DialogDismissListe
                     e.printStackTrace();
                 }
 
-                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "QuitGuide Android Version " + versionName + " Feedback");
-                startActivity(Intent.createChooser(emailIntent, "Send Feedback"));
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "QuitGuide Android Version " + versionName + " უკუკავშირი");
+                startActivity(Intent.createChooser(emailIntent, "უკუკავშირი"));
                 break;
             case(R.id.lyt_settings_about):
                 AboutFragment f = new AboutFragment();

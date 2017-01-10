@@ -10,20 +10,20 @@
     <string name="category_mood">განწყობა</string>
     <string name="category_quit_date">თავის დანებების თარიღი</string>
     <string name="category_quit_plan">სიგარეტზე თავის დანებების გეგმა</string>
-    <string name="category_smoke_free">Smokefree</string>
+    <string name="category_smoke_free">თამბაქოსგან გათავისუფლება</string>
     <string name="category_craving">მიდევნება</string>
     <string name="category_slipped">Slipped</string>
     <string name="category_craving_action">CravingAction</string>
     <string name="category_status">სტატუსი</string>
     <string name="category_reasons">მიზეზები</string>
     <string name="category_start_pages">საწყისი გვერდები</string>
-    <string name="category_respondent_participant_id">respondentParticipantID</string>
+    <string name="category_respondent_participant_id">რესპოდენტის საიდენტიფიკაციო ID</string>
     <string name="category_reports">რეპორტები</string>
     <string name="category_notification_tip">შეტყობინების ტიპი</string>
-    <string name="category_notification_map_list">NotificationMapList</string>
+    <string name="category_notification_map_list">რუკის სიის შეტყობინებები</string>
     <string name="category_whats_new_notifications">ახალი შეტყობინებები</string>
-    <string name="category_notification_time_select">NotificationTimeSelect</string>
-    <string name="category_notification_fired_and_accepted">NotificationFiredAndAccepted</string>
+    <string name="category_notification_time_select">არჩეული დროის შეტყობინება</string>
+    <string name="category_notification_fired_and_accepted">შეტყობინება მიღებულია</string>
 
     <!-- actions -->
     
@@ -33,7 +33,7 @@
     <string name="action_how_to_quit">როგორ დავანებო თავი</string>
     <string name="action_journal">ჟურნალი</string>
     <string name="action_settings">პარამეტრები</string>
-    <string name="action_smokefree">Smokefree</string>
+    <string name="action_smokefree">თამბაქოსგან გათავისუფლება</string>
     <string name="action_manage_mood">მართე განწყობა</string>
     <string name="action_track_craving">TrackCraving</string>
     <string name="action_slip">Slip</string>
@@ -50,7 +50,7 @@
     <string name="action_positive_mood">პოზიტიური განწყობა</string>
     <string name="action_quit_date_set">თავის დანებების თარიღი უცნობია</string>
     <string name="action_share_quit_date">გაზიარება</string>
-    <string name="action_another_day_in_app">AnotherDayInApp</string>
+    <string name="action_another_day_in_app">კიდევ ერთი დღე აპლიკაციაში</string>
     <string name="action_view_stats">სტატუსი</string>
     <string name="action_view_history">ისტორია</string>
     <string name="action_closed">დაკეტვა</string>
@@ -59,7 +59,7 @@
     <string name="action_keep_going">გააგრძელე</string>
     <string name="action_new_quit_date_set">მოწევის დანებების ახალი თარიღი</string>
     <string name="action_finished">დასრულება</string>
-    <string name="action_share_stats_selected">ShareStatsSelected</string>
+    <string name="action_share_stats_selected">არჩეული სტატისტიკის გაზიარება</string>
     <string name="action_reasons_to_quit_updated">თავის დანებების მიზეზების განახლება</string>
     <string name="action_welcome_screen_viewed">კეთილი იყოს თქვენი მობრძანება</string>
     <string name="action_edit_reason_to_quit">შეცვალე თავის დანებების მიზეზი</string>
