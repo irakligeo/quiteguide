@@ -70,7 +70,7 @@ public class SmokeDataIntroFragment extends SmokeDataBaseFragment {
                         mSmokeFreq = progress;
                         smokeDaysVal.setText("ყოველდღე");
                     } else {
-                        smokeDaysVal.setText(String.format("%d %s", mSmokeFreq = progress, progress == 1 ? "დღე კვირაში" : "დღეები კვირაში"));
+                        smokeDaysVal.setText(String.format("%d %s", mSmokeFreq = progress, "დღე"));//progress == 1 ? "დღე კვირაში" : "დღეები კვირაში"));
                     }
                 }
 
@@ -90,11 +90,11 @@ public class SmokeDataIntroFragment extends SmokeDataBaseFragment {
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                     if (progress == 0) {
-                        craveVal.setText(mTimeOfDay = "დილა");
+                        craveVal.setText(mTimeOfDay = "დილით");
                     } else if (progress == 1) {
-                        craveVal.setText(mTimeOfDay = "შუადღე");
+                        craveVal.setText(mTimeOfDay = "შუადღეს");
                     } else {
-                        craveVal.setText(mTimeOfDay = "საღამო");
+                        craveVal.setText(mTimeOfDay = "საღამოს");
                     }
                 }
 
@@ -132,7 +132,7 @@ public class SmokeDataIntroFragment extends SmokeDataBaseFragment {
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                     mPricePerPack = (double) progress / 100;
-                    pricePackVal.setText(String.format("$%.2f", mPricePerPack));
+                    pricePackVal.setText(String.format("%.2f GEL", mPricePerPack));
                 }
 
                 @Override

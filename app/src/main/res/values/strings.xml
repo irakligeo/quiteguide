@@ -18,7 +18,7 @@
     <string name="lbl_optional">ნებაყოფლობითი</string>
     <string name="lbl_intro_reason">რა არის თამბაქოსთვის თავის დანებების მიზეზი?</string>
     <string name="access_continue">გააგრძელე</string>
-    <string name="lbl_how_often">რა სიხშირით ეწევით?</string>
+    <string name="lbl_how_often">?</string>
     <string name="btn_lbl_select_quitdate">მოწევისთვის თავის დანებების თარიღი</string>
     <string name="lbl_how_many">რამდენ ღერს ეწევით დღეში?</string>
     <string name="lbl_when_craving">როდის გაქვს მოწევის ყველაზე ძლიერი სურვილი?</string>

@@ -37,8 +37,9 @@
 
     <LinearLayout
         android:id="@+id/ll_top_buttons"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_below="@+id/ll_header"
         android:layout_centerInParent="true"
         android:layout_marginBottom="@dimen/spacing_normal"
@@ -48,18 +49,18 @@
         <ImageButton
             android:id="@+id/btn_smokefree"
             style="@style/ImgButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/spacing_large"
+            android:layout_marginRight="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:background="@drawable/btn_smokefree"
             android:contentDescription="@string/access_smokefree_btn_desc" />
 
         <ImageButton
             android:id="@+id/btn_slipped"
             style="@style/ImgButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/spacing_large"
+            android:layout_marginLeft="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:background="@drawable/btn_slipped"
             android:contentDescription="@string/access_slipped_btn_desc" />
     </LinearLayout>
