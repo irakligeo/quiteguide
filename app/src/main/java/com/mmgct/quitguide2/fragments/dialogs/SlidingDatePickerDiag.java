@@ -24,6 +24,8 @@ import com.mmgct.quitguide2.R;
 
 import org.joda.time.DateTime;
 
+import java.util.Locale;
+
 
 /**
  * Created by 35527 on 9/23/2015.
@@ -114,6 +116,8 @@ public class SlidingDatePickerDiag extends DialogFragment {
      */
 
     private void addDatePicker() {
+        Locale locale = new Locale("ka");
+        Locale.setDefault(locale);
 
         mDatePicker = (DatePicker) getActivity().getLayoutInflater().inflate(R.layout.view_datepicker, null, false);
         mDatePicker.setCalendarViewShown(false);

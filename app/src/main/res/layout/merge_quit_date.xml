@@ -33,9 +33,10 @@
         android:text="@string/btn_lbl_select_quitdate" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
         style="@style/ContentTextSmallGray"
         android:text="@string/lbl_two_weeks"/>
 

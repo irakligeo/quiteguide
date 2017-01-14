@@ -553,22 +553,22 @@ public class MainActivity extends GoogleApiActivity implements NavCallbacks, Ext
         double savings = 0;
         if (smokeFreeDays < 0) {
             smokeFreeDays *= -1;
-            daysSmokeFree.setText(smokeFreeDays == 1 ? smokeFreeDays + " დღე მოწევის გარეშე"
-                    : smokeFreeDays + " დღე მოწევის გარეშე");
+            daysSmokeFree.setText(smokeFreeDays == 1 ? smokeFreeDays + " დღე თამბაქოს გარეშე"
+                    : smokeFreeDays + " დღე თამბაქოს გარეშე");
 
             // Cigs avoided
             int notSmoked = (int) Math.ceil((double) profile.getNumDailyCigs() * smokeFreeDays / 7 * profile.getSmokeFreq());
             cigsAvoided.setText(notSmoked + " სიგარეტი არ მომიწევია");
             // Money saved
             savings = (double) profile.getNumDailyCigs() / 20 * smokeFreeDays / 7 * profile.getSmokeFreq() * profile.getPricePerPack();
-            moneySaved.setText(String.format(" შენ დაზოგე $%.2f!", savings));
+            moneySaved.setText(String.format(" შენ დაზოგე %.2f GEL!", savings));
             // Minutes saved
             int timeSaved = notSmoked * 10;
             minutesSaved.setText(timeSaved + " წუთი!");
         } else {
-            daysSmokeFree.setText(0 + " დღე მოწევის გარეშე");
+            daysSmokeFree.setText(0 + " დღე თამბაქოს გარეშე");
             cigsAvoided.setText("0 ღერი სიგარეტი არ მომიწევია");
-            moneySaved.setText("შენ დაზოგე $0.00");
+            moneySaved.setText("შენ დაზოგე 0.00 GEL");
             minutesSaved.setText(0 + " წუთი!");
         }
         // Share button
@@ -593,9 +593,9 @@ public class MainActivity extends GoogleApiActivity implements NavCallbacks, Ext
                     }
                     sb.append("!");
                 } else if (sfd == 0) {
-                    sb.append("მე დღეს თავს ვანებებ მოწევას!");
+                    sb.append("მე დღეს თავს ვანებებ თამბაქოს!");
                 } else {
-                    sb.append("მე მოწევას თავს დავანებებ ");
+                    sb.append("მე თამბაქოს თავს დავანებებ ");
                     sb.append(qd);
                     sb.append("!");
                 }

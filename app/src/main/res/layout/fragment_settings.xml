@@ -69,7 +69,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/spacing_huge_plus">
+        android:layout_height="@dimen/spacing_huge_plus"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/txt_participant_id"
@@ -78,7 +79,7 @@
             android:layout_marginStart="@dimen/spacing_normal"
             android:layout_centerVertical="true"
             style="@style/ContentTextBlackLarge"
-            android:text="@string/participant_id"/>
+            android:text="@string/participant_id" />
 
         <EditText
             android:id="@+id/edt_participant_id"

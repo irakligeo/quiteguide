@@ -40,9 +40,9 @@
             android:layout_height="@dimen/view_height_small"
             android:background="@drawable/rounded_rect_white"
             android:layout_marginTop="@dimen/spacing_normal"
-            android:contentDescription="@string/access_user_tip"
-            android:gravity="top|left"
-            android:inputType="textCapSentences"/>
+            android:hint="@string/access_user_tip"
+            android:gravity="center"
+            android:inputType="textCapSentences" />
 
         <Button
             android:id="@+id/btn_send_custom_tip"

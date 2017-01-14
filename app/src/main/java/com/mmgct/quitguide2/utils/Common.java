@@ -68,7 +68,7 @@ public class Common {
     public static String formatTimestamp(String pattern, long timestamp) {
         String date = null;
         DateTime dateTime = new DateTime(timestamp);
-        DateTimeFormatter dtf = DateTimeFormat.forPattern(pattern);
+        DateTimeFormatter dtf = DateTimeFormat.forPattern(pattern).withLocale(new Locale("ka"));
         date = dtf.print(dateTime);
         return date;
     }

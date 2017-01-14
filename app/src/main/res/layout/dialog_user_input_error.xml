@@ -40,7 +40,7 @@
             android:textStyle="bold"
             android:textColor="@color/light_blue"
             android:paddingBottom="25dp"
-            android:text="dialogidan dismiss"/>
+            android:text="უკან"/>
 
     </LinearLayout>
 </FrameLayout>
