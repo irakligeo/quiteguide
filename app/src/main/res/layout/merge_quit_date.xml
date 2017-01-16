@@ -57,5 +57,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="@dimen/spacing_normal"
         style="@style/ContentTextSmallGray"
-        android:text="@string/lbl_optional" />
+        android:text="@string/lbl_optional"
+        android:visibility="gone"/>
 </merge>

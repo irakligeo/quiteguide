@@ -18,12 +18,13 @@
 
     <ImageButton
         android:id="@+id/btn_quitplan_quitdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
         android:layout_marginTop="@dimen/spacing_xlarge"
         android:src="@drawable/quitplan_your_quit_date_button"
         android:contentDescription="@string/access_your_quitdate"
         android:background="@color/transparent"
+        android:scaleType="fitXY"
         android:layout_below="@id/quitplan_header"
         android:layout_centerHorizontal="true"/>
 

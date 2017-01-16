@@ -1,2 +1,347 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.daimajia.swipelayout\library\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.swipelayout-library-1.2.0_fe19a293ae2c935bc743a70e8714b5feedbf403b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_133a2b6467ccab982e68c86808f906214786c139\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e3c7e8ff9f476d0d93ee7b046fbe8037a2b822c0">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-24.2.1_bd19080bda1c8a41e0370c721a291a46fd0ec82c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.10_ada0150d77d35d69b37dc8bc435125c09e34c483\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_6b74fd7e7a62a4284826a3a665fdcd59e8288331\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9ab678a85de37c4a2482c2e4bb56fcc2c7eadb8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.6.1_d4b22204525b82dd11f95ca7803887cd378de4dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_6c48351d343847322c8dba5937ce482af01b5d77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_698ba1e5c603e45230e5da5ef7de1e541b6eb754\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-beta-1.1.4_18d13abdcad71e8d617a0064df6117084df47966\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6e5dec753df3aaf691509f3199b2469ef70431ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.p_v\flexiblecalendar\1.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5b685bcbf9ed88ed956a97a2ef18ec01864012c">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.p_v-flexiblecalendar-1.1.3_d5996ce12bdeba551d84ec317b3b441545ac9f6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.sqliteasset\sqliteassethelper\2.0.1\d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f\sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\sqliteassethelper-2.0.1_6cf62682ea1b4347252f42ba005e2cb0a86d530c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\net.danlew\android.joda\2.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dc6c5f4bb34315c98476469344d481c8e3ca90ad">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\net.danlew-android.joda-2.9.0_97d14caf94e700ba3415de2e60c4364fcc1816bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0b970a344d8508b3ca4acc7688289ea31925ab0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_05098a79431030a6067ea81987fa0ed6bd312257\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d511b71d4e3deb945ef0046ade2488f3f5c544fe">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_07bb08b0f2a4f781d595c56dd6f9a7deb1a18612\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.6_0c829cc1c77e180beec1e267af0648bcbd9d7caf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.4.0_2894a81a0b8dfef7c8325467a4fb3da499c060e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_04f329cbe203e5e4776b69ad6a6e34df615e72d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.8_71deafaa7ff8fded43ca3a8b29f0e7c5eff5faa7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_3747ce35d1f756123b3cb1f134152c340f8ac686\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_8ad80c42356d8d20fef3bb12d72f44692877d3bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9\db8dd9d75280b1d1d9587ed0d39b4108d0e655e9\joda-time-2.9-no-tzdb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db8dd9d75280b1d1d9587ed0d39b4108d0e655e9">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.9-no-tzdb_c4b032909cffb673cdbbe69dda5a1a54653218e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_e4dae54f24538299c29a6a6eda42f3815f790660\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\ormlite-android-4.48_2a5a48769c1da66b7fdd0f25ec396d243bcd7655\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1add8b7385fe9522c36694e8c7c7e31ba8ec2345\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.48\e579bd2905d0399af5029aaaf9817d5fa0ca88a5\ormlite-core-4.48.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\ormlite-core-4.48_4cafb3499e332810e7cb9cc5ee53d9c01717d7a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c1ee40792b2bd6a7e9e58e3a6ddacbe1640c1a7d">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3542d20620496987b81a55ea6a7e8db0dd5258b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_53d3acf3b402f8e3b2fd345bbd17327a86664ddb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_a6d412b29e6ea781182242a6b2804694c853a404\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.github.davidpizarro\pickerui\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba5d942e89c3ae59ca8ef23176eb642aba5e28f6">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.davidpizarro-pickerui-1.0.0_49ed630d665d9f6c39f09303d09d7cf4fc3203d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_7d83b17cd18427b2ad641cb32e25a1f0d2634cdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_d54b98137d3d05e2972be5ea0e5fba213a6d686c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\se.emilsjolander\StickyScrollViewItems\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b17ff4914892992c91e7b585ed74c1e782c5d1a1">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\se.emilsjolander-StickyScrollViewItems-1.1.0_784436188b0e30a8ccd7fd3412ebc6657b23bad6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.5.5_5850876f2c1642704ac1a45a92432cd7c07beea1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c07fb99b729345908dda75fadbbf882e300631ff">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2eb5c62319dda6fb70c598430c2dd0215fa1c152\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Jay\Desktop\QuiteSmoke Details\quiteguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_046c66db86863f945fd54d541a9186aaaf8adc98\classes.dex" />
+    </item>
+
+</items>

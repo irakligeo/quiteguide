@@ -16,7 +16,9 @@ import com.mmgct.quitguide2.IntroActivity;
 import com.mmgct.quitguide2.MainActivity;
 import com.mmgct.quitguide2.R;
 import com.mmgct.quitguide2.managers.DbManager;
+import com.mmgct.quitguide2.models.Award;
 import com.mmgct.quitguide2.models.Profile;
+import com.mmgct.quitguide2.models.State;
 
 /**
  * Created by 35527 on 11/3/2015.
@@ -58,7 +60,20 @@ public class SmokeDataIntroFragment extends SmokeDataBaseFragment {
                 @Override
                 public void onClick(View v) {
                     save();
-                    mCallbacks.onAnimatedNavigationAction(new TutorialFragment(), "", R.animator.card_flip_left_in, R.animator.card_flip_left_out, R.animator.card_flip_right_in, R.animator.card_flip_right_out, true);
+//                    mCallbacks.onAnimatedNavigationAction(new TutorialFragment(), "", R.animator.card_flip_left_in, R.animator.card_flip_left_out, R.animator.card_flip_right_in, R.animator.card_flip_right_out, true);
+                    DbManager DbInstance = DbManager.getInstance();
+                    State state = DbInstance.getInstance().getState();
+                    state.setIntroMode(false);
+                    DbInstance.getInstance().updateState(state);
+//                    removeIntroNotifications();
+//                    scheduleQuitDateNotifications();
+
+                    Award quitDateSetAward = DbInstance.getInstance().getAwardByKey(1);
+                    quitDateSetAward.setAwarded(true);
+                    DbInstance.getInstance().updateAward(quitDateSetAward);
+                    Intent intent = new Intent(getActivity().getApplicationContext(), MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
                 }
             });
         }
