@@ -30,8 +30,9 @@
 
     <ImageButton
         android:id="@+id/btn_quitplan_reasons"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
         android:layout_marginTop="@dimen/spacing_normal_pp"
         android:src="@drawable/quitplan_reasons_somefree_button"
         android:contentDescription="@string/access_reasons_smokefree"
@@ -40,8 +41,9 @@
         android:layout_centerHorizontal="true"/>
     <ImageButton
         android:id="@+id/btn_quitplan_track"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
         android:layout_marginTop="@dimen/spacing_normal_pp"
         android:src="@drawable/quitplan_track_progress_button"
         android:contentDescription="@string/access_track_progress"
