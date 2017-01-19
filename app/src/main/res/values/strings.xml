@@ -156,7 +156,7 @@
     <string name="tv3_whats_new"></string>
     <!--მოწევის ძლიერი სურვილის გაჩენისას ან სიგარეტზე ხელის წაცდენისას მოძებნეთ ქვემოთ არსებული ღილაკების მსგავსი -->
     <string name="header_help_time">მონიშნეთ დრო, როდესაც გსურთ რჩევის მიღება შეტყობინების სახით </string>
-    <string name="btn_txt_select_time">შეარჩიეთ დრო</string>
+    <string name="btn_txt_select_time">აირჩიეთ დრო</string>
     <string name="access_help_time">დამეხმარე ამ დროს ხვალ</string>
     <string name="access_help_location">დამეხმარე შემდგომში, როცა ამავე ადგილას აღმოვჩნდები</string>
     <string name="header_time_tip">აირჩიეთ როგორ გსურთ მიიღოთ შეტყობინება ყოველდღიურად, თქვენს მიერ მითითებულ დროის მონაკვეთში</string>
