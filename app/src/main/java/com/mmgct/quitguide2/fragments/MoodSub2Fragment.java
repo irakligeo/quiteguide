@@ -3,6 +3,7 @@ package com.mmgct.quitguide2.fragments;
 import android.app.Fragment;
 import android.content.ComponentName;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -96,11 +97,16 @@ public class MoodSub2Fragment extends BaseFlipInFragment {
 
     void showContacts()
     {
+//        Intent i = new Intent();
+//        i.setComponent(new ComponentName("com.android.contacts", "com.android.contacts.DialtactsContactsEntryActivity"));
+//        i.setAction("android.intent.action.MAIN");
+//        i.addCategory("android.intent.category.LAUNCHER");
+//        i.addCategory("android.intent.category.DEFAULT");
+//        startActivity(i);
+
         Intent i = new Intent();
-        i.setComponent(new ComponentName("com.android.contacts", "com.android.contacts.DialtactsContactsEntryActivity"));
-        i.setAction("android.intent.action.MAIN");
-        i.addCategory("android.intent.category.LAUNCHER");
-        i.addCategory("android.intent.category.DEFAULT");
+        i.setAction(Intent.ACTION_VIEW);
+        i.setData(Uri.parse("content://contacts/people/"));
         startActivity(i);
     }
 }

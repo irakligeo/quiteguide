@@ -189,7 +189,7 @@
     <string name="diag_another_location">არსებობს სხვა ტერიტორიები, სადაც შეიძლება გამოიყენო დახმარება?</string>
     <string name="diag_header_another_location">სხვა ტერიტორიები</string>
     <string name="header_location_tip">გსურთ მიიღოთ აპლიკაციის რეკომენდაციები ყოველთვის, როდესაც ამ ადგილზე აღმოჩნდებით, თუ გსურთ დაწეროთ საკუთარი რეკომენდაცია?</string>
-    <string name="btn_loc_next_time">დამეხარე შემდგომში, როდესაც აქ მოვალ</string>
+    <string name="btn_loc_next_time">დამეხარე როცა აქ მოვალ</string>
     <string name="btn_time_current">დამეხმარე ხვალ ამ დროს</string>
     <string name="error_last_location">უკაცრავად, თქვენი ადგილმდებარეობის მიღებისას კავშირი შეფერხდა, მოგვიანებით სცადეთ </string>
     <string name="diag_settings_change_unavailable">უკაცრავად, მაგრამინტერნეტკავშირი ან არ არის აქტიური ან ძალიან სუსტია მოცემული ფუნქციის გამოყენებისთვის</string>
