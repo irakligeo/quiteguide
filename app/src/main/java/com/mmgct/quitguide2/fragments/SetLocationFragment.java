@@ -181,6 +181,9 @@ public class SetLocationFragment extends BaseFragment implements OnMapReadyCallb
         mGoogleMap.setOnMapLongClickListener(this);
         mGoogleMap.setOnMapClickListener(this);
         mGoogleMap.setOnInfoWindowClickListener(this);
+        LatLng currentCoordinates = new LatLng(42.1928518, 44.4866121);
+        CameraUpdate point = CameraUpdateFactory.newLatLngZoom(currentCoordinates, 5f);
+        mGoogleMap.animateCamera(point, 1000, null);
         buildGoogleApiClient();
         createLocationRequest();
         buildLocationSettingsRequest();
@@ -668,7 +671,7 @@ public class SetLocationFragment extends BaseFragment implements OnMapReadyCallb
                     return;
                 }
                 LatLng currentCoordinates = new LatLng(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
-                CameraUpdate point = CameraUpdateFactory.newLatLngZoom(currentCoordinates, 15f);
+                CameraUpdate point = CameraUpdateFactory.newLatLngZoom(currentCoordinates, 150f);
                 mGoogleMap.animateCamera(point, 1000, null);
                 mCurrentMarkerOptions = new MarkerOptions().position(currentCoordinates);
                 addMarker(mCurrentMarkerOptions);

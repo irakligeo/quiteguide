@@ -12,11 +12,18 @@
     in the debug/.../google_maps_api.xml instead if you just want to run this app.
     (This file is used for the release target that uses the release key store.)
     -->
+    <!--<string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">-->
+        <!--AIzaSyCE2W4X_0ELgHphjIZwzHLtiJoLvUVCwVI-->
+    <!--</string>-->
+    <!--<string name="google_maps_key_debug" translatable="false" templateMergeStrategy="preserve">-->
+        <!--AIzaSyBEPPsfOZfO_6np_LCfcvQkgeiwMqvbs3A-->
+    <!--</string>-->
+
     <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
-        AIzaSyCE2W4X_0ELgHphjIZwzHLtiJoLvUVCwVI
+        AIzaSyDv-8DLA0yC_JsLQn7pgJ6jaRnwIyHlkPk
     </string>
-    <string name="google_maps_key_debug" translatable="false" templateMergeStrategy="preserve">
-        AIzaSyBEPPsfOZfO_6np_LCfcvQkgeiwMqvbs3A
-    </string>
+    <!--<string name="google_maps_key_debug" translatable="false" templateMergeStrategy="preserve">-->
+        <!--AIzaSyBEPPsfOZfO_6np_LCfcvQkgeiwMqvbs3A-->
+    <!--</string>-->
 
 </resources>
