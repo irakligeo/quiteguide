@@ -133,6 +133,7 @@ public class NotificationService extends IntentService {
                 .setSmallIcon(R.drawable.ic_notification)
                 .setContentText(notification.getDetail())
                 .setContentIntent(pendingIntent)
+                .setAutoCancel(true)
                 .build();
         notificationManager.notify(notification.getId(), noticeNotification);
 

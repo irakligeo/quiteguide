@@ -128,7 +128,7 @@
     <string name="days_thu">ხუთ</string>
     <string name="days_fri">პარ</string>
     <string name="days_sat">შაბ</string>
-    <string name="notification_title">არა მოწევას</string>
+    <string name="notification_title">QuitGuide</string>
     <string name="header_dialog_notification">მოწევისათვის თავის დანებების მობილური აპლიკაცია \"არა მოწევას\"</string>
     <string name="content_dialog_notification">შეტყობინებები შესაძლოა შეიცავდეს ტექსტებს, ხმებს, ჩანაწერებს და ა.შ. მათი მართვა შეგიძლიათ პარამეტრებიდან</string>
     <string name="btn_left_dialog_notification">არ მსურს</string>
