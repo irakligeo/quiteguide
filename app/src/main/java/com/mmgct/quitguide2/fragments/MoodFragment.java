@@ -61,7 +61,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
         Mood mood;
         switch(v.getId()) {
             case(R.id.btn_happy):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "happy"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_happy)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -69,7 +69,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newHappySubcreen(), "", true);
                 break;
             case(R.id.btn_excited):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "excited"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_excited)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -77,7 +77,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newHappySubcreen(), "", true);
                 break;
             case(R.id.btn_relaxed):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "relaxed"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_relaxed)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -85,7 +85,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newHappySubcreen(), "", true);
                 break;
             case(R.id.btn_angry):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "angry"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_angry)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -93,7 +93,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newNotHappySubscreen(), "", true);
                 break;
             case(R.id.btn_anxious):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "anxious"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_anxious)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -101,7 +101,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newNotHappySubscreen(), "", true);
                 break;
             case(R.id.btn_frustrated):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "frustrated"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_frustrated)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -109,7 +109,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newNotHappySubscreen(), "", true);
                 break;
             case(R.id.btn_nervous):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "nervous"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_nervous)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -117,7 +117,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newNotHappySubscreen(), "", true);
                 break;
             case(R.id.btn_sad):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "sad"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_sad)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
@@ -125,7 +125,7 @@ public class MoodFragment extends BaseFlipOutFragment implements View.OnClickLis
                 mCallbacks.onAddNavigationAction(newNotHappySubscreen(), "", true);
                 break;
             case(R.id.btn_stressed):
-                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), "stressed"));
+                DbManager.getInstance().createMood(mood = new Mood(Common.millisAtStartOfDay(System.currentTimeMillis()), getResources().getString(R.string.access_stressed)));
                 createHistoryItem(mood);
                 flipOut();
                 mTrackerHost.send(getString(R.string.category_mood), getString(R.string.action_type), mood.getType());
