@@ -585,11 +585,11 @@ public class MainActivity extends GoogleApiActivity implements NavCallbacks, Ext
                 // Check to see if date is in the future or the past
                 StringBuilder sb = new StringBuilder();
                 if (sfd < 0) {
-                    sb.append("I quit on ");
+                    sb.append("ჩემი თამბაქოს თავის დანებების თარიღია ");
                     sb.append(qd);
                     if (svd > 0) {
-                        sb.append(" and saved ");
-                        sb.append(String.format("$%.2f", svd));
+                        sb.append(" და დავზოგე ");
+                        sb.append(String.format("%.2f GEL", svd));
                     }
                     sb.append("!");
                 } else if (sfd == 0) {
