@@ -171,11 +171,11 @@ public class SettingsFragment extends BaseFragment implements DialogDismissListe
                     PackageInfo pInfo = getActivity().getPackageManager().getPackageInfo(getActivity().getPackageName(), 0);
                     versionName = pInfo.versionName;
                 } catch (PackageManager.NameNotFoundException e) {
-                    versionName = "Unknown Version";
+                    versionName = "უცნობი ვერსია";
                     e.printStackTrace();
                 }
 
-                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "QuitGuide Android Version " + versionName + " უკუკავშირი");
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "QuitGuide აპლიკაციის ვერსია " + versionName + " უკუკავშირი");
                 startActivity(Intent.createChooser(emailIntent, "უკუკავშირი"));
                 break;
             case(R.id.lyt_settings_about):
