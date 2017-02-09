@@ -23,11 +23,11 @@ android {
     buildToolsVersion "23.0.1"
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "ge.ncdc.quitguide"
+        applicationId "ge.ncdc.tavsvanebeb"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0.4"
+        versionName "1.0"
     }
 }
 

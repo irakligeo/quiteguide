@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QuiteGuide</string>
+    <string name="app_name">თავს ვანებებ</string>
     <string name="lbl_days_smokefree">დღეები თამბაქოს გარეშე</string>
     <string name="access_smokefree_btn_desc">დღეს საერთოდ არ მომიწევია!</string>
     <string name="access_slipped_btn_desc">თავი ვერ შევიკავე და მოვწიე</string>
@@ -99,7 +99,7 @@
     <string name="notifications">შეტყობინებები</string>
     <string name="application">აპლიკაცია</string>
     <string name="version_name">2.0.0</string>
-    <string name="email_addr_send_feedback">verikogegenava77@gmail.com</string>
+    <string name="email_addr_send_feedback">ncdcph@gmail.com</string>
     <string name="email_subject_send_feedback">აპლიკაციის 2.0. უკუკავშირი</string>
     <string name="btn_delete">წაშლა</string>
     <string name="header_about_quitguide">აპლიკაციის შესახებ</string>
@@ -128,7 +128,7 @@
     <string name="days_thu">ხუთ</string>
     <string name="days_fri">პარ</string>
     <string name="days_sat">შაბ</string>
-    <string name="notification_title">QuitGuide</string>
+    <string name="notification_title">თავს ვანებებ</string>
     <string name="header_dialog_notification">მოწევისათვის თავის დანებების მობილური აპლიკაცია \"არა მოწევას\"</string>
     <string name="content_dialog_notification">შეტყობინებები შესაძლოა შეიცავდეს ტექსტებს, ხმებს, ჩანაწერებს და ა.შ. მათი მართვა შეგიძლიათ პარამეტრებიდან</string>
     <string name="btn_left_dialog_notification">არ მსურს</string>
